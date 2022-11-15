@@ -5,7 +5,7 @@ public class MutualFund {
 	private int id;
 	private String fundName;
 	private String fundType;
-	private double nav;
+	private double 	nav;
 	public int getId() {
 		return id;
 	}

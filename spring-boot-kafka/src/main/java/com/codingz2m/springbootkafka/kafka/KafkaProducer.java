@@ -31,7 +31,7 @@ public class KafkaProducer {
 		Message<MutualFund> message = MessageBuilder.withPayload(mutualFund)
 				.setHeader(KafkaHeaders.TOPIC, "mutualfundschemes" )
 				.build();
-		
+				
 		kafkaTemplate.send(message);
 		
 	}
